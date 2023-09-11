@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #F2F2F2;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+.container {
+  width: 1440px;
+  background: #F2F2F2;
+}
+
+.nav-header {
+  border-radius: 8px;
+  background: #E28625;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.nav-list {
+  display: flex;
+  padding: 219px;
+}
+
+.nav-item {
+  text-align: center;
+  margin: 70px;
+}
+
+.nav-icon {
+  width: 63.915px;
+  height: 40px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,176 @@
+
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.to-uppercase{
+    text-transform: uppercase;
+}
+.clearfix{
+    clear: both;
+}
+.main-header__brand{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__brand img{
+
+    width: 64px;
+
+
+}
+.main-navigation{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-navigation__item{
+    display: inline-block;
+    padding: 10px
+}
+.main-navigation__item a{
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+.main-navigation__item a:hover{
+    color: #efb6df;
+}
+.main-navigation__item.active{
+    color: #efb6df;
+}
+/*Main section*/
+.main-section{
+    padding: 100px 30px;
+
+}
+.main-section > div{
+    width: 50%;
+    float: left;
+}
+.main-section__image{
+    text-align: right;
+}
+.main-section__welcome{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color:#797979;
+}
+.main-section__italic{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364E;
+}
+.main-section__position{
+    color: #05364E;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+.main-section__networks a{
+    color: #8FA1AA;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.main-section__networks a:hover i{
+    color: #1C44E4;
+}
+.main-section__action {
+    margin-top: 30px;
+    border: none;
+    background-color: #1C44E4;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+/*Statistics section*/
+.statsistics{
+    padding-top: 100px;
+}
+.statsistics__item{
+    display: inline-block;
+    width: 150px;
+    background-color:#F8FAFF;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 20px;
+
+}
+.statsistics__number{
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #1C44E4;
+}
+.statsistics__title{
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+}
+/*Abaut me section*/
+.about-me{
+    padding: 100px 0;
+}
+.about-me>div{
+    width: 50%;
+    float: left;
+}
+.about-me__image img{
+    width: 90%;
+}
+.section__subtitle{
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+.section-title{
+    margin-top: 14px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364D;
+
+}
+.button{
+    border: none;
+    background-color: #1C44E4;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.blur-line{
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237,35,159,0.6);
+    filter: blur(4px);
+}
+.bout-me__description{
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px;
+}
+.about-me__action{
+    margin-top: 40px;
+}

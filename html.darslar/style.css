@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.hero{
+  background-color: #fff;
+  width: 100%;
+}
+.container{
+  width: 100%; 
+}
+.header_row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img{
+  width: 100%;
+}
+.header_logo{
+  width: 153px;
+  height: 77px;
+  margin-left: 40px;
+
+}
+.nav_list{
+  display: flex;
+  list-style: none;
+  margin-left: 500px;
+}
+.nav_item{
+  margin-right: 20px;
+  margin-left: 30px;
+}
+.nav_link{
+  color: #150101;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+.button_boy{
+  margin-right: 20px;
+}
+.button_boy i{
+  margin-right: 20px;
+}
+.sing_btn{
+width: 140px;
+height: 46px;
+flex-shrink: 0;
+background-color: #F72D57;
+color: #fff;
+border: #fff solid;
+}
+.other_line{
+  color: #3F3F3F;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.reed_now{
+color: #F72D57;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.fox_title{
+color: #3F3F3F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.box_image{
+width: 567px;
+height: 527px;
+
+}

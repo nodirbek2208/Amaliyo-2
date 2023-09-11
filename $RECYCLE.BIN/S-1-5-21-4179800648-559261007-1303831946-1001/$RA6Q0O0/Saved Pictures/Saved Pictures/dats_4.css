@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700;1,900&family=Ysabeau+SC:wght@100;500;600;800;900;1000&display=swap');
+
+
+:root{
+    --Open: 'Open Sans', sans-serif;
+    --Roboto:'Roboto', sans-serif;
+    --Ysabeau:'Ysabeau SC', sans-serif;
+    --datk:#3c393d
+    --exDark:#2b2b2b
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--Roboto);
+}
+body{
+    line-height: 1.4;
+    color: var(--datk);
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1320px;
+    margin: auto;
+    padding: 0 1.2rem;
+
+}
+/*Header styling start*/ 
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-image: url();
+
+}

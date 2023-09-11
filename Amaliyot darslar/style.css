@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.main{
+  width: 100%;
+}
+.container{
+  margin: 0 auto;
+
+}
+
+
+  
+
+img{
+  width: 100%;
+}
+.box_row{
+  width: 153px;
+  height: 77px;
+}
+.header_naw{
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+}
+.nav_list{
+  display: flex;
+  list-style: none;
+}
+.nav_item{
+  margin-right: 40px;
+}
+

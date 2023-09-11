@@ -1,0 +1,38 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f3040;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conainert{
+    padding: 15px;
+    background: linear-gradient(225deg,#7f37be,#ea041e,#f6c900);
+    border-radius: 20px;
+}
+.instagram{
+    position: relative;
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.ciricle{
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 50%; 
+}
+.ball{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    top: 10px;
+    left: 70px;
+    border-radius: 50%;
+}

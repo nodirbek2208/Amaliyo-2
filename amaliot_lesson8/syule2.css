@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+ 
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:#f0f0f0 ;
+}
+ul{
+  list-style: none;
+}
+img{
+  width: 100%;
+}
+
+.navbar{
+  background-color: rgb(12, 6, 6);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+.contaner{
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+.features{
+  padding: 48px 0;
+  
+}
+.features-row{
+  display: flex;
+} 
+.feature{
+  text-align: center;
+  padding: 20px;
+  
+}
+.icon{
+  font-size: 48px;
+  color: #8e2626;
+
+}
+.features-title{
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: normal;
+
+}
+.features-text{
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
+a{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-primary{
+  padding: 6px  12px;
+  background-color: #0d6efd;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.btn-secondary{
+  padding: 6px  12px;
+  background-color: #6c757d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+
+}
+.btn-success{
+  padding: 6px  12px;
+  background-color: #064d0e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.btn-danger{
+  padding: 6px  12px;
+  background-color: #d81111;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+}
