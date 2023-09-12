@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 
-ul {
+ul li {
   list-style: none;
 }
 
@@ -15,28 +15,99 @@ ul {
 .container {
   width: 1440px;
   background: #F2F2F2;
+  margin: 0;
 }
 
-.nav-header {
+.card-list {
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.card-item {
+  padding: 35px;
+  margin-left: 40px;
+  display:inline;
+}
+
+.yellow {
   border-radius: 8px;
   background: #E28625;
-  padding: 0;
-  margin: 0;
-  
+  width: 300px;
+  height: 500px;
+  flex-shrink: 0;
 }
 
-.nav-list {
-  display: flex;
-  padding: 219px;
+.grenn {
+  border-radius: 8px;
+  background: #006971;
+  width: 300px;
+  height: 500px;
+  flex-shrink: 0;
 }
 
-.nav-item {
-  text-align: center;
-  margin: 70px;
+.blu {
+  border-radius: 8px;
+  background: #004140;
+  width: 300px;
+  height: 500px;
+  flex-shrink: 0;
 }
 
-.nav-icon {
+img {
   width: 63.915px;
   height: 40px;
   flex-shrink: 0;
+}
+
+.card-title {
+  color: #F2F2F2;
+  font-family: Big Shoulders Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.card-desp {
+  color: #FFF;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 166.667% */
+}
+
+.card-btn {
+  border-radius: 25px;
+  background: #F2F2F2;
+  color: #E28625;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  /* 166.667% */
+}
+
+.two {
+  color: #006971;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  
+  /* 166.667% */
+}
+
+.one {
+  color: #004140;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 166.667% */
 }
