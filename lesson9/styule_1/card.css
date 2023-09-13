@@ -20,14 +20,13 @@ ul li {
 
 .card-list {
   display: flex;
- justify-content: space-between;
- align-items: center;
+  /*justify-content: space-between;*/
+  align-items: center;
 }
 
 .card-item {
   padding: 35px;
-  margin-left: 40px;
-  display:inline;
+  display: inline;
 }
 
 .yellow {
@@ -80,34 +79,23 @@ img {
   /* 166.667% */
 }
 
-.card-btn {
+button {
   border-radius: 25px;
   background: #F2F2F2;
+  width: 146px;
+  height: 48px;
+  font-family:sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.ls {
   color: #E28625;
-  font-family: Lexend Deca;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 25px;
-  /* 166.667% */
 }
-
-.two {
-  color: #006971;
-  font-family: Lexend Deca;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  
-  /* 166.667% */
+.two{
+  color:#006971 ;
 }
-
-.one {
+.one{
   color: #004140;
-  font-family: Lexend Deca;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-  /* 166.667% */
 }
