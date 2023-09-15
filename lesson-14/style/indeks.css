@@ -1,0 +1,31 @@
+body {
+  box-sizing: border-box;
+  background: #F2CEDA;
+
+}
+
+.contayner {
+  width: 1440px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.logo-imge {
+  width: 79px;
+  height: 79px;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 40px;
+  padding: 40px;
+}
